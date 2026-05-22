@@ -22,9 +22,16 @@ No accounts. No emails required. Just a link.
 ## Screenshots
 
 ![Home](screenshots/home.png)
-![Create Event](screenshots/create.png)
-![Voting Grid](screenshots/vote.png)
-![Results](screenshots/results.png)
+<br>
+<p align="center">
+  <img src="screenshots/create_event.png" width="49.5%" />
+  <img src="screenshots/event.png" width="49.5%" />
+</p>
+<br>
+<p align="center">
+  <img src="screenshots/vote.png" width="49.5%" />
+  <img src="screenshots/results.png" width="49.5%" />
+</p>
 
 ---
 
