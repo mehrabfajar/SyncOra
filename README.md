@@ -1,6 +1,6 @@
 # SyncOra 🗓️
 
-> A lightweight scheduling tool built as part of the **HackaPrompt AI Challenge** at the **University of Trento**.
+> A lightweight scheduling tool
 
 SyncOra lets a group of people find a time that works for everyone, without the endless back-and-forth. You create an event, share a short code, and participants vote on their availability. The app scores each slot automatically and highlights the best option once enough people have responded.
 
@@ -154,4 +154,4 @@ Built as part of the **HackaPrompt AI Challenge** at the **University of Trento*
 
 ## License
 
-[MIT](LICENSE) - For educational Purpose 
+MIT LICENSE - For educational Purpose 
