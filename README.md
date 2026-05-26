@@ -4,7 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Flask](https://img.shields.io/badge/Flask-API-black?logo=flask)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?logo=postgresql)
-![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-Build-646CFF?logo=vite)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4?logo=tailwindcss)
