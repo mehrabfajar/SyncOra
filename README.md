@@ -3,11 +3,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Flask](https://img.shields.io/badge/Flask-API-black?logo=flask)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?logo=postgresql)
+![SQLite](https://img.shields.io/badge/SQLite-Local-003B57?logo=sqlite)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-Build-646CFF?logo=vite)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4?logo=tailwindcss)
-![AI Assisted](https://img.shields.io/badge/AI-Assisted-8A2BE2?logo=openai)
+![AI Assisted](https://img.shields.io/badge/AI-Assisted-8A2BE2?logo=anthropic)
 
 ## Summary
 SyncOra lets a group of people find a time that works for everyone, without the endless back-and-forth. You create an event, share a short code, and participants vote on their availability. The app scores each slot automatically and highlights the best option once enough people have responded.
