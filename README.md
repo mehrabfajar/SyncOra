@@ -1,5 +1,16 @@
 # SyncOra 🗓️
 
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-API-black?logo=flask)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?logo=postgresql)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Build-646CFF?logo=vite)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4?logo=tailwindcss)
+![AI Assisted](https://img.shields.io/badge/AI-Assisted-8A2BE2?logo=openai)
+
+## Summary
 SyncOra lets a group of people find a time that works for everyone, without the endless back-and-forth. You create an event, share a short code, and participants vote on their availability. The app scores each slot automatically and highlights the best option once enough people have responded.
 
 No accounts. No emails required. Just a link.
@@ -42,7 +53,6 @@ No accounts. No emails required. Just a link.
 | Backend    | Python 3.11 · Flask · SQLAlchemy  |
 | Database   | SQLite (local) · PostgreSQL (prod)|
 | Frontend   | React 18 · Vite · Tailwind CSS    |
-| Deployment | Render (free tier)                |
 
 ---
 
@@ -122,23 +132,6 @@ Then open [http://localhost:5173](http://localhost:5173).
 
 ---
 
-## Deploying to Render
-
-Render is a free hosting platform. The `render.yaml` file in this repo configures everything automatically.
-
-1. Push this repo to your GitHub account
-2. Sign up at [render.com](https://render.com) and connect GitHub
-3. Click **New → Blueprint** and select this repo
-4. Render creates the backend, frontend, and database automatically
-5. Once deployed, copy the backend URL (e.g. `https://syncora-backend.onrender.com`)
-6. Open the **frontend service → Environment** tab in the Render dashboard
-7. Set `VITE_API_URL` = `https://syncora-backend.onrender.com/api`
-8. Save — the frontend redeploys and you're live
-
-> **Free tier note:** Render spins down idle services after 15 minutes of inactivity. The first request after a sleep may take ~30 seconds to wake up.
-
----
-
 ## API
 
 | Method | Endpoint                  | Description                         |
@@ -151,9 +144,25 @@ Render is a free hosting platform. The `render.yaml` file in this repo configure
 
 ---
 
+## Future Work
+
+- **Public deployment** — the app currently runs locally. A hosted version is planned, with candidates including Render, Railway, or a self-managed VPS. A `render.yaml` configuration is already included in the repo for when this is set up.
+- **Email invites** — let the event creator send invite links directly to participants
+- **Timezone support** — automatically adjust slot times based on each participant's timezone
+- **Custom slot durations** — allow 30-minute or 2-hour slots instead of fixed 1-hour blocks
+- **Event expiry** — automatically close voting after a set date
+- **Calendar export** — export the winning slot as an `.ics` file
+
+---
 ## Context
 
-Built as part of the **HackaPrompt AI Challenge** at the **University of Trento**. The project explores how AI-assisted development tools can accelerate the design and delivery of functional web applications from a prompt specification.
+SyncOra was built during HackaPrompt AI 2026, held on April 23, 2026 at Polo Fabio Ferrari, Povo, Trento, Italy - a challenge organised by the University of Trento exploring AI-assisted software development.
+The goal was to design and deliver a functional web application from scratch using large language models, while reflecting honestly on what AI handles well and where human judgment remains irreplaceable.
+
+Final Notes:
+- AI significantly accelerated development, enabling the backend, frontend, database layer, and business logic to come together much faster than usual.
+- Clear, specific instructions were important for getting consistent and usable outputs.
+- Human oversight remained essential throughout, for catching subtle issues, making UX and product decisions, and ensuring the project stayed coherent end-to-end.
 
 ---
 
